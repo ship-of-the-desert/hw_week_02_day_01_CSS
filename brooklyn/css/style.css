@@ -1,4 +1,4 @@
-/* 
+/* <!--
 
 ## Style Hints: 
 
@@ -7,6 +7,28 @@ Body Font Size = 12px
 	 Font Family = "Times New Roman", serif
 	 Font Color = #656565
 
-Link Hover Color = #20222a
+Link Hover Color = #20222a --> */
 
-*/
+body{
+	width: 90%;
+	margin: 0 auto;
+	font-family: 'Times New Roman', Times, serif;
+	color: #656565;
+	line-height: 17px;
+	float: right;
+}
+
+
+p{
+	font-size: 12px;
+	width: 75%;
+	
+}
+
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #20222a;
+}

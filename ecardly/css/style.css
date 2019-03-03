@@ -26,3 +26,46 @@ Developer @GA in NYC
 	clear: both;
 }
 
+header{
+     text-align: center;
+     background-image: url("/Users/omar/Desktop/misk/hw_week_02_day_01_CSS/ecardly/images/background.jpg");
+     height: 150px; 
+     margin: 0px 0px 100px 0px;
+}
+
+
+a{
+     text-decoration: none;
+     color: rgb(255,  40, 40);
+}
+
+body{
+     background-color: rgba(0, 0, 0, .2)
+     
+     
+}
+.container{
+     background-color: white;
+     width: 80%;
+     height: 80%;
+     text-align: left;
+     margin: 0 auto 50px auto;
+     padding: 20px;
+}
+#body-image{
+     float: left;
+     padding:  15px;
+}
+
+p{
+     float: right;
+     width: 475px;
+     font-size: 14px;
+     text-align: justify;
+}
+.clearfix{
+     clear: both;
+ }
+ h1{
+      font-size: 22px;
+ }
