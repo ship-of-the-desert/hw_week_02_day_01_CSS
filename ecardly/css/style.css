@@ -26,3 +26,33 @@ Developer @GA in NYC
 	clear: both;
 }
 
+body{ 
+    background-color: #d6d6d6;
+ color: #000000;
+ margin: auto;
+}
+ a{
+color: #cc6633;
+ }
+
+
+#Container{ 
+Width: 940px;
+}
+
+#main{
+width: 640px;
+} 
+#sidebar{
+width:  280px;
+}
+h2{
+     font-size: 20px;
+}
+p{
+     font-size: 12px;
+}
+ul{
+     list-style: none;
+     font-size: 12px;
+}
