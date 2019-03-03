@@ -1,0 +1,86 @@
+a {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav a {
+    color: white;
+    margin: 0 10px;
+}
+
+nav {
+    margin-left: 10%;
+}
+
+header {
+    background-color: black;
+    color: white;
+    margin: 0px 0px 20px 0px;
+    padding: 20px 20px; 
+}
+
+section:nth-child(3) div {
+    width: 80%;
+    margin: 30px auto;
+}
+
+section:nth-child(4) div:first-child {
+    width: 90%;
+    margin: 30px auto;
+}
+
+section:nth-child(5) div div {
+    float: right;
+    width: 30%;
+    margin: 0 auto;
+}
+
+section:nth-child(5) div div p {
+    width: 85%;
+    margin: 0 auto;
+    margin-left: 5px;
+}
+
+.logo {
+    float: left;
+
+}
+
+.socialmedia a {
+    float: right;
+}
+
+#display-left {
+    float: left;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#display-right {
+    float: right;
+    padding-top: 10px;
+}
+
+footer div div a {
+    border-top: 1px solid black;
+    float: left;
+    width: 60%;
+    margin: 0px auto;
+}
+
+footer div div p {
+    border-top: 1px solid black;
+    float: left;
+    width: 60%;
+    margin: 0px auto;
+}
+
+footer div div {
+    float:right;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
