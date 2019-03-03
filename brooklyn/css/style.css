@@ -10,3 +10,69 @@ Body Font Size = 12px
 Link Hover Color = #20222a
 
 */
+h1{
+
+	color:#999999;
+	font-weight: bold;
+	font-size: 40px;
+}
+h2{
+	color:#999999;
+	font-weight: bold;
+	/* font-size: 40px; */
+}
+h3{
+	color:#809fff;
+	font-weight: bold;
+	/* font-size: 40px; */
+}
+p{
+	color:#a6a6a6;
+	font-size: 15px;
+}
+#container{
+	width:70%;
+    margin: 10px;
+
+ }
+Body{ 
+	
+	margin: 50px ;
+	font-size : 12px;
+	line-height:  17px;
+	 Font-Family: "Times New Roman", serif;
+	color : #656565;
+	
+
+}
+a:hover{ Color : #20222a;
+}
+.clearfix{ 
+	clear:both; }
+
+	/* footer {
+		padding: 10px ;
+		
+	} */
+	.left-side{
+
+		float:left;
+	
+		text-align: justify;
+	
+		width:50%;
+	
+	}
+	footer p{
+		
+		margin:10px 0px;
+	
+		padding:0px 10px;
+	}
+	.imgStyle{
+		margin: 5px ;
+		border: 2px solid #999999;
+	}
+	/* div{
+		text-align:center;
+	} */
