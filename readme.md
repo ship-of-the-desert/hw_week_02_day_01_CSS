@@ -16,7 +16,16 @@
 
 ---
 
+## Interesting Read
+- [A list of everything that *could* go in the head of your HTML document](https://github.com/joshbuchea/HEAD).
+- [HTML and CSS Code Guide](http://codeguide.co/#html).
+- [Handling common HTML and CSS problems](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS).
+- [CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.asp)
+
+---
+
 
 ## Reminder
 
 Remember to submit an issue to our class repository with your work by 9 am tomorrow morning! Need a reminder on how to submit? [Check out the instructions on how to submit homework in our class Wiki](https://github.com/ship-of-the-desert/homework_submission_steps) if you need a reminder.
+
