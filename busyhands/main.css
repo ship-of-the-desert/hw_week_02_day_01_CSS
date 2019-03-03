@@ -4,7 +4,7 @@
 #container {
     
     width:80%;
-
+ 
     
     margin: 0 auto;
 
@@ -14,22 +14,24 @@ body{
     /* margin: 10px auto; */
     background-image: url("images/bg_body.jpg");
    
+   
 }
 header{
     background-color:black;
     padding: 20px;
-    
+
+    margin: 0 auto;
 
 } 
-.clearfix{ 
-    clear:both; }
+.clearfix {
+    overflow: auto;
+  }
 nav{
     margin: 15px;
 }
 nav a{
     color:#cccccc;
     margin: 15px;
-  
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -40,13 +42,36 @@ nav a{
 }
 #social-media {
     float: right;
+  padding: 2px;
     
 }
 
 .photobanner {
-    margin: 0 auto;
+   
    
 
+}
+.display-left{
+ 
+    /* display: inline; */
+    float: left;
+    width: 60%;
+   
+ }
+#display-right{
+    /* display: inline; */
+    float: right;
+    text-align: justify;
+  
+    width: 20%;
+  
+    
+ }
+ p{
+    font-size: 15px;
+ }
+section{
+    margin: 2% 19% 2% 18%;
 }
 .imageshadow{
 
@@ -57,22 +82,44 @@ nav a{
   
     
 }
-.outset {
-    outline: thick ridge gray;
-}
+
+
 #blurb{
-    background-image: url("images/bg_blurb.jpg");  
+    border-width:3px;  
+    border-style:inset;
+
+    background-image: url("https://raw.githubusercontent.com/ship-of-the-desert/hw_week_02_day_01_CSS/master/busyhands/images/bg_blurb.jpg"); 
 
 } 
 
+
 #home-boxes {
-
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: bold;
+    
 }
-    .home-box{}
-    .home-box{}
-    .home-box{}
-footer{
+.imgBox{
+    border: 3px solid white;
+}
+    .home-box1{
+        overflow: auto;
+        float: left;        
+        width: 30%;
+    }
+    .home-box2{
+        overflow: auto;
+text-align: center; 
+width: 30%;  
+    }
+    .home-box3{
+        overflow: auto;
+        float: right;
+        width: 30%;
 
+    }
+footer{
+background-color: black
 }
     .box-footer {}
          .blogroll{}
