@@ -19,3 +19,17 @@ body {
 a:hover { 
 	background-color: #20222a;
   }
+  a{
+	  color: #48bde4;
+	  text-decoration: none;
+  }
+  #container{
+	  width: 960px;
+	  margin: auto;
+  }
+  footer{
+	  padding: 20px;
+  }
+  .fotterImg > img{
+	border:1px solid #021a40;
+  }
