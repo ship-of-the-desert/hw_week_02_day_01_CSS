@@ -20,6 +20,7 @@ nav,
 section,
 summary {
     display: block;
+
 }
 
 /*
@@ -39,7 +40,7 @@ video {
  * Remove excess height in iOS5 devices
  */
 
-audio:not([controls]) {
+audio {
     display: none;
     height: 0;
 }
