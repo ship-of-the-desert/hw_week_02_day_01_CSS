@@ -1,0 +1,83 @@
+#wrapper {
+    background-image: url("images/bg_wrapper.jpg");  
+}
+#container {
+    
+    width:80%;
+
+    
+    margin: 0 auto;
+
+}
+body{
+    margin: 0 auto;
+    /* margin: 10px auto; */
+    background-image: url("images/bg_body.jpg");
+   
+}
+header{
+    background-color:black;
+    padding: 20px;
+    
+
+} 
+.clearfix{ 
+    clear:both; }
+nav{
+    margin: 15px;
+}
+nav a{
+    color:#cccccc;
+    margin: 15px;
+  
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main-content {
+    margin: 0 auto;
+
+}
+#social-media {
+    float: right;
+    
+}
+
+.photobanner {
+    margin: 0 auto;
+   
+
+}
+.imageshadow{
+
+      
+    z-index: 1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  
+    
+}
+.outset {
+    outline: thick ridge gray;
+}
+#blurb{
+    background-image: url("images/bg_blurb.jpg");  
+
+} 
+
+#home-boxes {
+
+}
+    .home-box{}
+    .home-box{}
+    .home-box{}
+footer{
+
+}
+    .box-footer {}
+         .blogroll{}
+    .box-footer {}
+         .textwidget {}
+
+#copyright {}
+#companybottom {}
