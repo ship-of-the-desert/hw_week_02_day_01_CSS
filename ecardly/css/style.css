@@ -26,3 +26,47 @@ Developer @GA in NYC
 	clear: both;
 }
 
+body{
+     margin: 0 auto;
+     background-image: url('../images/background.jpg');
+     background-color: #d6d6d6;
+     color: #000;
+     background-repeat: repeat-x;
+}
+
+header{
+     text-align: center;
+}
+
+header img{
+    
+}
+
+.container{
+     width: 940px;
+     margin: 50px auto;
+     background-color: #fff;
+
+}
+
+h2{
+     margin: 10px;
+     
+}
+
+.left-column{
+     width: 640px;
+     float: left;
+     margin: 5px 10px;
+
+}
+
+.right-column{
+     width: 280px;
+     float: right;
+}
+
+a{
+     color: #cc6633;
+     text-decoration: none;
+}
