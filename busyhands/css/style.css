@@ -10,7 +10,7 @@ body{
 header{
     background-color:black;
     
-    margin: 0;
+    margin: 0 0 30px 0;
     padding: 30px 0;
 }
 
@@ -24,6 +24,51 @@ a {
     padding:0px 10px;
     text-decoration: none;
     color: white;
+}
+
+.logo {
+    float: left;
+}
+
+.social {
+    float: right;
+    margin: 0 5px;
+    
+}
+
+
+.toplogos{
+    margin: 20px 160px;
+}
+
+#main {
+    margin: 0 100px;
+    text-align: center;
+}
+
+
+.clearfix {
+    clear: both;
+}
+
+.display-left{
+    float: left;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.display-right{
+    float: right;
+}
+
+#description {
+    /* margin: 30px 160px;
+    border: 1px solid black;
+    padding: 20px; */
+    margin: 60px auto;
+     width:70%;
+     padding: 50px;
+     border: 1px solid black;
 }
 
 
