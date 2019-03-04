@@ -1,9 +1,45 @@
-## Style Hints: 
-Body Font Size = 12px
-	 Line Height = 17px
-	 Font Family = "Times New Roman", serif
-	 Font Color = #656565
-Link Hover Color = #20222a
-h1 {
-    color:;
+
+
+
+
+/* Box Model Hack */
+
+
+* {
+
+    -moz-box-sizing: border-box; /* Firexfox */
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+
+    box-sizing: border-box; /* IE */
+    
+}
+
+
+
+/* Clear fix hack */
+
+.clearfix:after {
+
+    content: ".";
+
+    display: block;
+
+    clear: both;
+
+   
+
+    line-height: 
+    0;
+
+    height: 0;
+
+}
+
+
+
+.clear {
+
+   clear: both;
+
 }
