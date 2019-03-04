@@ -29,6 +29,8 @@ Developer @GA in NYC
 body {
 background-color: #d6d6d6;
 color: #000000;
+margin-right:250px;
+float:right;
 }
  .container {
       width: 940px;
