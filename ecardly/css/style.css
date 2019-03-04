@@ -6,23 +6,121 @@ Developer @GA in NYC
 */
 
 /* Box Model Hack */
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
-}
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
+
+/*
+h1{
+	font-family: 'Times New Roman', 'serif';
+	font-weight: bold;
+	color: #939393;
+}
+h2{
+	font-family: 'Times New Roman', 'serif';
+
+ 	color: #747474;
+}
+h3{
+	font-family: 'Times New Roman', 'serif';
+	color: #3E81DF;
+}
+p{
+	font-family: 'Times New Roman', 'serif';
+	color: #20222a;
+}
+#container a{
+	color: #3E81DF;
+
+ }
+footer p{
+	color: #939393;
+}
+body{
+     margin: 30px;
+}*/
+
+a {
+     list-style: none;
+     text-decoration: none;
+     cursor: pointer;
+ }
+ nav a {
+     color: white;
+     margin: 0 10px;
+ }
+ 
+  nav {
+     margin-left: 10%;
+ }
+ 
+  header {
+     background-color: black;
+     color: white;
+     margin: 0px 0px 20px 0px;
+     padding: 20px 20px; 
+ }
+ 
+  section:nth-child(3) div {
+     width: 80%;
+     margin: 30px auto;
+ }
+ 
+  section:nth-child(4) div:first-child {
+     width: 90%;
+     margin: 30px auto;
+ }
+ 
+  section:nth-child(5) div div {
+     float: right;
+     width: 30%;
+     margin: 0 auto;
+ }
+ 
+  section:nth-child(5) div div p {
+     width: 85%;
+     margin: 0 auto;
+     margin-left: 5px;
+ }
+ 
+  .logo {
+     float: left;
+ 
+  }
+ 
+  .socialmedia a {
+     float: right;
+ }
+ 
+  #display-left {
+     float: left;
+     width: 70%;
+     margin: 0 auto;
+ }
+ 
+  #display-right {
+     float: right;
+     padding-top: 10px;
+ }
+ 
+  footer div div a {
+     border-top: 1px solid black;
+     float: left;
+     width: 60%;
+     margin: 0px auto;
+ }
+ 
+  footer div div p {
+     border-top: 1px solid black;
+     float: left;
+     width: 60%;
+     margin: 0px auto;
+ }
+ 
+  footer div div {
+     float:right;
+     width: 30%;
+     margin: 0 auto;
+ }
+ 
+  .clearfix {
      clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-	clear: both;
-}
-
+ }

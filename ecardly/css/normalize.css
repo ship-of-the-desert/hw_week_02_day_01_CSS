@@ -7,7 +7,7 @@
 /*
  * Corrects `block` display not defined in IE6/7/8/9 & FF3.
  */
-
+/*
 article,
 aside,
 details,
@@ -20,12 +20,14 @@ nav,
 section,
 summary {
     display: block;
+    margin: 20px 40px;
+
 }
 
 /*
  * Corrects `inline-block` display not defined in IE6/7/8/9 & FF3.
  */
-
+/*
 audio,
 canvas,
 video {
@@ -38,7 +40,7 @@ video {
  * Prevents modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS5 devices.
  */
-
+/*
 audio:not([controls]) {
     display: none;
     height: 0;
@@ -48,10 +50,11 @@ audio:not([controls]) {
  * Addresses styling for `hidden` attribute not present in IE7/8/9, FF3, S4.
  * Known issue: no IE6 support.
  */
-
+/*
 [hidden] {
     display: none;
 }
+
 
 /* ==========================================================================
    Base
@@ -128,6 +131,7 @@ h1 {
 }
 
 h2 {
+   
     font-size: 1.5em;
     margin: 0.83em 0;
 }
