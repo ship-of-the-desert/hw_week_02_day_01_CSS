@@ -1,0 +1,28 @@
+header section{
+    background-image: url('../images/background.jpg');
+    height:130px;
+    text-align: center;
+}
+
+header section img{
+    width: 190px;
+    margin: 10px auto;
+}
+body{
+    background-color: #cccccc;
+}
+
+main{
+    margin: 11% 5% 0 18%;
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+main img{
+    float:left;
+    background-color: #ffffff;
+}
+
+main p{
+    margin-right: 20px;
+}

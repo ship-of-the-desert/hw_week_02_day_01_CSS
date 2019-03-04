@@ -1,0 +1,29 @@
+body{
+    margin:auto 10%;
+}
+
+h1{
+    color: #aaaaaa;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+
+#container{
+    font-size: 13px;
+    margin-right: 100px;
+}
+
+a{
+    color:#5181da;
+    text-decoration: none;
+}
+
+p{
+    color:#777777;
+}
+
+footer img{
+    border:solid #cccccc 5px;
+}
