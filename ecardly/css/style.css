@@ -25,4 +25,56 @@ Developer @GA in NYC
 .clear {
 	clear: both;
 }
-
+body{
+     background-color: #d6d6d6;
+     color: #000000
+}
+/* 
+Left Columm (#main): 640px;
+Right Column (#sidebar): 280px;
+ */
+a{
+     color: #cc6633;
+}
+.container{
+	width:940px;
+     margin: 0px auto;
+}
+h2{
+     font-size: 20px;
+}
+p{
+     font-size: 12px;
+     font-size-adjust: justify;
+}
+header{
+     height: 500px;
+     background-image: url("images/background.jpg") ;
+     padding:0px 0px;
+}
+.right-side{
+     float:right;
+     width:280px;
+     font-size-adjust: justify;
+ }
+ .left-side{
+     float:left;
+     text-align: justify;
+     width:640px;
+ }
+h4{
+     font-size: 12px;
+}
+.display-none{
+     display: none;   
+}
+ul{
+     font-size: 12px;
+}
+.center{
+     text-align: center;
+     padding:0px 0px;
+}
+section{
+     padding:0px 0px;
+}
