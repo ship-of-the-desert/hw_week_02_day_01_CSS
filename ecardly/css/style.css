@@ -27,24 +27,31 @@ Developer @GA in NYC
 }
 
 body{ 
-    background-color: #d6d6d6;
+background-color: #d6d6d6;
  color: #000000;
- margin: auto;
+ margin: 0px auto;
 }
  a{
 color: #cc6633;
  }
 
+header{
+background-image: url("./images/logo.png");
 
+
+}
 #Container{ 
 Width: 940px;
+
 }
 
 #main{
 width: 640px;
+float: left;
 } 
 #sidebar{
 width:  280px;
+float: right;
 }
 h2{
      font-size: 20px;
@@ -55,4 +62,12 @@ p{
 ul{
      list-style: none;
      font-size: 12px;
+}
+.clearfix:after{
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
 }
