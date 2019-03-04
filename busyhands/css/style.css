@@ -33,7 +33,6 @@ a {
 .social {
     float: right;
     margin: 0 5px;
-    
 }
 
 
@@ -62,13 +61,14 @@ a {
 }
 
 #description {
-    /* margin: 30px 160px;
-    border: 1px solid black;
-    padding: 20px; */
+    
     margin: 60px auto;
-     width:70%;
-     padding: 50px;
-     border: 1px solid black;
+    width:70%;
+    padding: 30px;
+    border: 1px solid black;
 }
 
+button {
+    border-radius: 10px;
+}
 
