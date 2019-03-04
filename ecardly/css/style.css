@@ -26,3 +26,17 @@ Developer @GA in NYC
 	clear: both;
 }
 
+body {
+background-color: #d6d6d6;
+color: #000000;
+}
+ .container {
+      width: 940px;
+      background-color:white;
+ }
+
+ .right-side{
+      float:right;
+      width:280;
+      
+ }

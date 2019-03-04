@@ -10,3 +10,32 @@ Body Font Size = 12px
 Link Hover Color = #20222a
 
 */
+
+Body {
+	color:#656565;
+	font-size: 12px;
+	font-family: 'Times New Roman', Times, serif;
+	line-height: 17 px;
+	margin-top:50px;
+	margin-bottom: 50px;
+	margin-left: 200px;
+	margin-right: 100px;
+	
+}
+Body a:hover{
+	color:#20222a;
+}
+h2{
+	font-weight: bold;
+}
+h3{
+color: rgb(0, 208, 255);
+}
+h1{
+	font-weight: bold;
+	opacity:0.5;
+}
+div img {
+	width: 50%;
+	height: auto;
+  }
