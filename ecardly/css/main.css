@@ -18,6 +18,8 @@ main{
     text-align: justify;
     box-sizing: border-box;
     overflow:auto;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 main img{
