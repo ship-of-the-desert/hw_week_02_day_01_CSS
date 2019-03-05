@@ -16,6 +16,8 @@ main{
     margin: 11% 5% 0 18%;
     background-color: #ffffff;
     text-align: justify;
+    box-sizing: border-box;
+    overflow:auto;
 }
 
 main img{
@@ -26,3 +28,4 @@ main img{
 main p{
     margin-right: 20px;
 }
+
