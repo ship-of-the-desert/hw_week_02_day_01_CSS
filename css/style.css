@@ -1,0 +1,45 @@
+
+/*## Style Hints:
+Link Hover Color = #20222a;
+
+*/
+Body{
+
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 17px;
+    font-size: 14px;
+    color: #656565;
+    background-color: white;
+    padding: 50px 100px;
+
+}
+ 
+h1{
+    color: gray;   
+}
+
+h2 p {
+    color: gray;
+}
+
+h3{
+    color: #809fe2
+}
+
+/*
+span{
+    
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 4px solid gray; 
+      
+}*/
+
+#img{
+    padding: 5 px;
+    border: 4px solid gray;
+    display: inline-block;
+    margin: 20px;
+}
